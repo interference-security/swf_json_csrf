@@ -1,0 +1,6 @@
+{
+  "name": "SWF JSON CSRF",
+  "description": "Execute SWF CSRF",
+  "repository": "https://github.com/interference-security/swf_json_csrf.git",
+  "keywords": ["swf", "php", "csrf", "heroku"]
+}
