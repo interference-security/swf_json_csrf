@@ -1,3 +1,5 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/interference-security/swf_json_csrf)
+
 ## Purpose
 This repository was created to simplify the SWF-based JSON CSRF exploitation. It should work also with XML (and any other) data using optional parameters. Also it can be used for easy exploitation of crossdomain.xml misconfiguration (no need to compile .swf for each case).
 
