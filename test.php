@@ -1,3 +1,3 @@
 <?php
-header("Location: ".$_GET["endpoint"], true, 307);
+header("Location: ".$_GET["endpoint"], true, intval($_GET["code"]));
 ?>
