@@ -12,7 +12,7 @@ var d = url.searchParams.get("jsonData")?url.searchParams.get("jsonData"):"";
 var p = url.searchParams.get("php_url")?url.searchParams.get("php_url"):"";
 //create embed object, and call SWF with defined parameters
 var obj = document.createElement("embed");
-obj.src="test.swf?endpoint="+e+"&reqmethod="+r+"&ct="+c+"&jsonData="+d+"&php_url="+p;
+obj.src="test.swf?endpoint="+encodeURIComponent(encodeURIComponent(e))+"&reqmethod="+r+"&ct="+c+"&jsonData="+d+"&php_url="+p;
 document.body.append(obj);
   
 //function for SWF ExternalInterface.call method - to receive the response from SWF

@@ -73,7 +73,7 @@ $( "#exec" ).click(function() {
 $( "embed" ).remove();
 //get URL and read parameters
 var url = new URL(window.location.href);
-var e = document.getElementById("endpoint").value;
+var e = encodeURIComponent(encodeURIComponent(document.getElementById("endpoint").value));
 var r = document.getElementById("reqm").value;
 var c = document.getElementById("ctype").value;
 var d = document.getElementById("postdata").value;
